@@ -40,6 +40,11 @@ cc_library(
     includes = ["include"],
 )
 
+py_library(
+    name = "py_flatbuffers",
+    srcs = glob(["python/**/*.py"]),
+)
+
 cc_binary(
     name = "flatc",
     srcs = [
