@@ -25,6 +25,7 @@ cc_library(
         "include/flatbuffers/hash.h",
         "include/flatbuffers/idl.h",
         "include/flatbuffers/util.h",
+        "include/flatbuffers/flatc.h",
         "include/flatbuffers/reflection.h",
         "include/flatbuffers/reflection_generated.h",
         "include/flatbuffers/flexbuffers.h",
